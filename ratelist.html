@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="WashBuddy, laundry services, laundry in Pune, wash and fold, dry cleaning">
+    <title>WashBuddy - Laundry Services</title>
+    <link rel="icon" href="images/washL.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="./ratelist.css">
+
+</head>
+
+<body>
+
+   <!-- ==================first nabar===================== -->
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <span>WANT LAUNDRY SERVICES? CALL US!</span>
+                <a href="tel:+917489688151">+91 7489688151</a>
+            </div>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./logo.png" alt="WashBuddy Logo">
+                </div>
+                <ul class="navbar-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./ratelist.html">Pricing</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =====================form section========= -->
+    <main>
+        <section id="pickup-form" class="form-section">
+            <div class="container">
+                <h2>Pickup Request Form</h2>
+                <form action="#" onsubmit="return insert_data1()">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="phone">Mobile No</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter mobile number" required>
+
+                    <label for="quantity">Select Quantity</label>
+                    <select name="quantity" id="quantity">
+                        <option value=>Select Quantity</option>
+                        <option value="5-10">5 - 10</option>
+                        <option value="10-15">10 - 15</option>
+                        <option value="15-20">15 - 20</option>
+                        <option value="20-30">20 - 30</option>
+
+                    </select>
+
+                    <label for="date">Preferred Pickup Date</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+
+                    <label for="products">Select Products & Prices</label>
+                    <select name="products" id="products" required>
+                        <option >Select Products </option>
+                        <option value="iron">Iron - 9/pcs</option>
+                        <option value="shirt">Shirt (wash/steam iron) - 20/pcs</option>
+                        <option value="paint">Paint (wash/steam iron) - 20/pcs</option>
+                        <option value="saree">Saree (wash/steam iron) - 40/pcs</option>
+                        <option value="coat/pant">Coat Paint Tie (wash/steam iron) - 240/pcs</option>
+                        <option value="kurta">Kurta/Payjama(wash/steam iron) - 240/pcs</option>
+                        <option value="lehga">Lehga/Choli (wash/steam iron) - 340/pcs</option>
+                        <option value="kurti">Kurti/Paint (wash/steam iron) - 340/pcs</option>
+
+                    </select>
+
+                      <input class="btn" type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-brand">
+          <h2>WashBuddy</h2>
+        </div>
+        <nav class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#service">Service</a>
+          <a href="#contact">Contact</a>
+          <a href="#privacy-policy">Privacy Policy</a>
+        </nav>
+        <div class="footer-contact">
+          <p><strong>Address:</strong> Nehru Nagar, Rewa, M.P.</p>
+          <p><strong>Contact:</strong> +91 XXXXX XXXXX</p>
+          <p><strong>Email:</strong> <a href="mailto:pranavpandey479@gmail.com">pranavpandey479@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+          <p>Follow us:</p>
+          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i> Facebook</a>
+        </div>
+        <div class="footer-copy">
+          <p>&copy; 2025 WashBuddy. All Rights Reserved.</p>
+        </div>
+      </footer>
+    <script src="./ratelist.js"></script>
+</body>
+
+</html>

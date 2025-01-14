@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+   background-image: linear-gradient(rgba(238, 85, 85, 0.5), rgba(0, 0, 0, 0.5)),url(https://www.rd.com/wp-content/uploads/2021/09/GettyImages-1181334518-MLedit.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+.main
+{
+    background: #fff;
+    padding: 40px 40px;
+    margin-top: 90px;
+    margin-left: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+h2{
+    text-align: center;
+    /* margin-top: 150px; */
+    color: blue;
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+input{
+    /* height: 50px; */
+    width:300px;
+    height: 25px;
+    margin-left: 30px;
+}
+.btn{
+    /* color: blue; */
+    font-size: large;
+    background-color: blue;
+}
+::placeholder{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:50px;
+}
+
+/* ===========================media query============= */
+@media (max-width: 768px) {
+    .main {
+        margin: 20px auto;
+        width: 90%; 
+    }
+    input {
+        width: 90%; /* Make inputs adapt to smaller screens */
+        margin-left: 5%; /* Keep inputs aligned */
+    }
+    label {
+        margin-left: 5%; /* Align labels with inputs */
+    }
+    p {
+        margin-left: 5%; /* Align paragraph text */
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        margin-top: 20px; /* Add spacing at the top for phones */
+        padding: 20px; /* Ensure enough padding for content */
+    }
+    input {
+        width: 95%; /* Inputs span more width on smaller phones */
+        margin-left: 2.5%; /* Align inputs symmetrically */
+    }
+    label {
+        margin-left: 2.5%; /* Align labels with inputs */
+    }
+    h2 {
+        text-align: center; /* Maintain centering for smaller screens */
+        font-size: 1.2em; /* Slightly smaller headers */
+    }
+}
