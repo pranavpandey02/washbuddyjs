@@ -2,13 +2,40 @@
   "inq": [],
   "emp": [
     {
-      
       "name": "Pranav",
       "mobilenum": "7489688151",
       "quantity": "74",
       "pickupdate": "01/16/202m.5",
       "address": "Madwa Rewa (M.P)",
-      "product": "3 "
+      "product": "3 ",
+      "id": "ed0b"
+    },
+    {
+      "id": "7ebc",
+      "name": "rajeebv",
+      "mobilenum": "43",
+      "quantity": "15-20",
+      "pickupdate": "2025-01-30",
+      "address": "indore",
+      "product": "coat/pant"
+    },
+    {
+      "id": "1687",
+      "name": "ankit",
+      "mobilenum": "2342",
+      "quantity": "15-20",
+      "pickupdate": "2025-01-30",
+      "address": "ashoka ",
+      "product": "shirt"
+    },
+    {
+      "id": "45e6",
+      "name": "abhinav",
+      "mobilenum": "56789",
+      "quantity": "10-15",
+      "pickupdate": "2025-01-10",
+      "address": "fasf",
+      "product": "shirt"
     }
   ]
 }
