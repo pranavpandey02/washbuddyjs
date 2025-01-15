@@ -14,7 +14,46 @@
       referrerpolicy="no-referrer"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
 
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      } 
+  
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* background: #fff; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 300px;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
 
   </head>
   <body>
@@ -33,7 +72,7 @@
     <!-- =================Second Navbar======================= -->
 
    <!-- Second Navbar -->
-<section class="sNav">
+<section  class="sNav">
   <article class="snav1">
     <div><img src="./logo.png" alt="Logo" /></div>
   </article>
@@ -66,7 +105,7 @@
 
 <!-- ===================Hero section======================= -->
     <section class="hero">
-      <article class="hero1">
+      <article data-aos="zoom-out-down" class="hero1">
         <div class="hero11">
           <div>Elevate your Life Style With</div>
           <div style="color: brown">WASHBUDDY</div>
@@ -74,7 +113,7 @@
         </div>
       </article>
       <br /><br />
-      <article class="hero12">
+      <article data-aos="zoom-out-down" class="hero12">
         <div>
           Want clean your Clothes without any hussle <br />
           <a href="#">WASHBUDDY</a> is here for you.
@@ -104,7 +143,7 @@
       </article>
       <br /><br /><br />
       <section class="service2">
-        <article>
+        <!-- <article>
           <div><img src="./firstsetp.png" alt="" /></div>
         </article>
         <article>
@@ -118,7 +157,33 @@
         </article>
         <article>
           <div><img src="./delivery.webp" alt="" /></div>
-        </article>
+        </article> -->
+
+        <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./firstsetp.png" alt=""></div>
+      <div class="swiper-slide"><img src="./iron.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./fold2222.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./packging.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./delivery.webp" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
       </section>
     
     </section>
@@ -474,6 +539,12 @@ Choos WashBuddy for spotless results!
  
    
       <script src="./script.js"></script>
+     
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <script>
+        AOS.init();
+      </script>
     
   </body>
 </html>

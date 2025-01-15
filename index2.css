@@ -339,9 +339,10 @@
   /* Service Images Grid */
   .service2 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    grid-template-columns: auto ;
+    gap: 70px;
     margin-bottom: 40px;
+    margin-left: 70px;
   }
   
   .service2 article {
@@ -351,9 +352,9 @@
   }
   
   .service2 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    /* object-fit: cover; */
     border-radius: 8px;
   }
 
