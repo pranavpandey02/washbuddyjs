@@ -1,5 +1,12 @@
 {
-  "inq": [],
+  "inq": [
+    {
+      "name":"Mohit",
+      "contact":"8817583025",
+      "email":"pranavpandey479@gmail.com",
+      "message":"hlw sir wht are you doing"
+    }
+  ],
   "emp": [
     {
       "name": "Pranav",
@@ -35,6 +42,15 @@
       "quantity": "10-15",
       "pickupdate": "2025-01-10",
       "address": "fasf",
+      "product": "shirt"
+    },
+    {
+      "id": "bac0",
+      "name": "Pranav",
+      "mobilenum": "7489688151",
+      "quantity": "5-10",
+      "pickupdate": "2025-01-22",
+      "address": "Rewa(M.P)",
       "product": "shirt"
     }
   ]

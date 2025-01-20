@@ -23,7 +23,7 @@ async function fetchh()
       <td>${e.message}</td>
       <td><button onclick="mydelete('${e.id}')"> Delete </button></td>
       <td><button onclick="edit('${e.id}')"> Edit</button></td>
-      <td><button onclick="myupdate('${e.id}')"> Update</button></td>
+    
        
       </tr>
      `).join("")
@@ -70,7 +70,7 @@ async function edit(id)
     
         let data = await res.json()
         let edit_frm = `
-        <h1> my edit </h1>
+        <h1> Edit Section </h1>
         <input type = "text" value="${data.id}" id = "id1" readonly> <br>
         <input type = "text" value="${data.name}" id = "name1"> <br>
         <input type = "text" value="${data.contact}" id = "age1"> <br>
